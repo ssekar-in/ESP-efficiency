@@ -5,3 +5,4 @@ Run esp_v1.py, keeping esp_eff.py in the same folder.
 esp_v2 gives effect of wk vs efficiency.
 Effective precipitation rate, wk is in m/s. sca in sq.m/cubic m/s of gas flow.
 esp_v3.py uses Deutsch equation. The precipitation rate is fed as wm, in m/s.
+ESP can be configured using esp_conf.py and efficiency  can be calculated using esp_conf_efficiency.py.
