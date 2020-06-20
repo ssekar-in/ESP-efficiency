@@ -46,7 +46,7 @@ for n in range(0, n1, 1):
 print(sca1)
 
 for n in range(0, m1, 1):
-    plt.plot(sca1, m1_eff[n], label=round(wm1[n], 2))
+    plt.plot(sca1, m1_eff[n], label=round(wm1[n], 4))
 plt.xlabel('sca(sq.m/m3/s)')
 plt.ylabel('Efficiency')
 plt.title('Efficiency vs sca')
